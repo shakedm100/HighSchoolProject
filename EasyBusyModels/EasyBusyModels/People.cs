@@ -12,7 +12,7 @@ namespace EasyBusyModels
         private String lastName;
         private String username;
         private String password;
-        private DateTime birthday;
+        private String birthday;
         private Kidomet kidomet;
         private String phoneNumber;
         private String taz;
@@ -34,14 +34,31 @@ namespace EasyBusyModels
             set => username = value;
         }
         public string Password
-        { get => password;
+        {
+            get => password;
             set => password = value;
         }
+
+        private DateTime StringToDateTime()
+        {
+            String[] toDateTime = birthday.Split('/');
+            int[] dmy = new int[toDateTime.Length];
+            for (int i = 0; i < toDateTime.Length; i++)
+                dmy[i] = int.Parse(toDateTime[i]);
+            return new DateTime(dmy[2], dmy[0], dmy[1]);
+        }
         public DateTime Birthday
+        {
+            get => StringToDateTime();
+            set => birthday = value.ToShortDateString();
+        }
+
+        public string BirthdayByString
         {
             get => birthday;
             set => birthday = value;
         }
+
         public Kidomet Kidomet
         {
             get => kidomet;
@@ -62,5 +79,6 @@ namespace EasyBusyModels
             get => city;
             set => city = value;
         }
+
     }
 }

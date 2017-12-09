@@ -25,8 +25,6 @@ namespace AdminsProject
     {
         ClientDB clientDB = new ClientDB();
 
-        ClientList clientList = new ClientList();
-
         public ShowAllClients()
         {
             InitializeComponent();
@@ -34,7 +32,7 @@ namespace AdminsProject
             Client client = new Client();
             //client.Taz
 
-            clientList = clientDB.SelectAll();
+            ClientList clientList = clientDB.SelectAll();
 
             clientsListView.ItemsSource = clientList;
         
@@ -46,19 +44,11 @@ namespace AdminsProject
             MainWindow.Frame.Navigate(new UpdateClientsPage(client));
         }
 
-        //private int yesNo = 0;
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
             Client client = (Client)clientsListView.SelectedItem;
             Window warning = new WarningWindow("Are you sure you want to delete: "+client.Username, client, clientDB);
             warning.Show();
-
-            //if(yesNo == 1)
-            //{
-            //    //Delete user at client.Username, client.Password
-            //    clientDB.Delete(client);
-            //}
-            //Else yesNo == 0 or -1 so it doesn't delete
         }
     }
 }

@@ -9,6 +9,6 @@
     <Grid>
         <Button x:Name="yesButton" Content="Yes" HorizontalAlignment="Left" Margin="36,157,0,0" VerticalAlignment="Top" Width="75" Click="yesButton_Click"/>
         <Label x:Name="warningLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.219,1.42" Margin="0,47,0,0"/>
-        <Button x:Name="noButton" Content="No" HorizontalAlignment="Left" Margin="177,157,0,0" VerticalAlignment="Top" Width="75" Click="noButton_Click"/>
+        <Button x:Name="noButton" Content="No" HorizontalAlignment="Left" Margin="177,157,0,0" VerticalAlignment="Top" Width="75" Click="NoButton_Click"/>
     </Grid>
 </Window>

@@ -66,8 +66,14 @@
     <Compile Include="ShowAllClients.xaml.cs">
       <DependentUpon>ShowAllClients.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ShowAllWorkers.xaml.cs">
+      <DependentUpon>ShowAllWorkers.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UpdateClientsPage.xaml.cs">
       <DependentUpon>UpdateClientsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateWorkerPage.xaml.cs">
+      <DependentUpon>UpdateWorkerPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="WarningWindow.xaml.cs">
       <DependentUpon>WarningWindow.xaml</DependentUpon>
@@ -100,7 +106,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ShowAllWorkers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UpdateClientsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UpdateWorkerPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

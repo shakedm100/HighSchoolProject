@@ -13,26 +13,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using EasyBusyModels;
+using EasyBusyViewModel;
+
 namespace AdminsProject
 {
     /// <summary>
-    /// Interaction logic for HomePage.xaml
+    /// Interaction logic for UpdateWorkerPage.xaml
     /// </summary>
-    public partial class HomePage : Page
+    public partial class UpdateWorkerPage : Page
     {
-        public HomePage()
+        public UpdateWorkerPage(Worker worker)
         {
             InitializeComponent();
-        }
-
-        private void viewAllClients_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow.Frame.Navigate(new ShowAllClients());
-        }
-
-        private void viewAllWorkers_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow.Frame.Navigate(new ShowAllWorkers());
         }
     }
 }

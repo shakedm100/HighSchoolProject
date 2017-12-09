@@ -26,7 +26,7 @@ namespace AdminsProject
         PeopleDB peopleDB;
         Base entity;
 
-        public WarningWindow(String warning,Base entity, PeopleDB peopleDB)
+        public WarningWindow(String warning, Base entity, PeopleDB peopleDB)
         {
             InitializeComponent();
 
@@ -57,7 +57,7 @@ namespace AdminsProject
             this.Close();
         }
 
-        private void noButton_Click(object sender, RoutedEventArgs e)
+        private void NoButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }

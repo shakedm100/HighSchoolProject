@@ -53,8 +53,9 @@ namespace EasyBusyViewModel
             Worker worker = entity as Worker;
             base.CreateModel(worker);
             worker.BankAccount = reader["BankAccount"].ToString();
-            worker.Rating = (double)reader["Rating"];
-            worker.JobType = (int)reader["JobType"];
+            worker.Rating = (int)reader["Rating"];
+            int job = (int)reader["JobType"];
+            worker.JobType = JobTypeDB.SelectByID(job);
             worker.Longtitude = (int)reader["Longtitude"];
             worker.Latitude = (int)reader["Latitude"];
             return worker; //(#Sahar) shukad the  king;
@@ -107,7 +108,7 @@ namespace EasyBusyViewModel
                 command.Parameters.Add(new OleDbParameter("@ID", worker.ID));
                 command.Parameters.Add(new OleDbParameter("@BankAccount", worker.BankAccount));
                 command.Parameters.Add(new OleDbParameter("@Rating", worker.Rating));
-                command.Parameters.Add(new OleDbParameter("@JobType", worker.JobType));
+                command.Parameters.Add(new OleDbParameter("@JobType", worker.JobType.ID));
                 command.Parameters.Add(new OleDbParameter("@Longtitude", worker.Longtitude));
                 command.Parameters.Add(new OleDbParameter("@Latitude", worker.Latitude));
             }
@@ -120,7 +121,7 @@ namespace EasyBusyViewModel
             sql.AppendFormat("UPDATE WorkerTable SET BankAccount = @BankAccount, Rating = @Rating, JobType = @JobType, Longtitude = @Longtitude, Latitude = @Latitude WHERE (ID = @ID)");
             command.Parameters.Add(new OleDbParameter("@BankAccount", worker.BankAccount));
             command.Parameters.Add(new OleDbParameter("@Rating", worker.Rating));
-            command.Parameters.Add(new OleDbParameter("@JobType", worker.JobType));
+            command.Parameters.Add(new OleDbParameter("@JobType", worker.JobType.ID));
             command.Parameters.Add(new OleDbParameter("@Longtitude", worker.Longtitude));
             command.Parameters.Add(new OleDbParameter("@Latitude", worker.Latitude));
             command.Parameters.Add(new OleDbParameter("@ID", worker.ID));

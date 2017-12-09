@@ -10,7 +10,7 @@ namespace EasyBusyModels
     {
         private String bankAccount;
         private double rating;
-        private int jobType;
+        private JobType jobType;
         private double longtitude;
         private double latitude;
 
@@ -24,7 +24,7 @@ namespace EasyBusyModels
             get => rating;
             set => rating = value;
         }
-        public int JobType
+        public JobType JobType
         {
             get => jobType;
             set => jobType = value;

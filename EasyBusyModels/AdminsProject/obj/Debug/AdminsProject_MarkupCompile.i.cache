@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\shake\source\repos\EasyBusyModels\AdminsProject\obj\Debug\
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\obj\Debug\
 AdminsProject
 none
 false
 DEBUG;TRACE
-C:\Users\shake\source\repos\EasyBusyModels\AdminsProject\App.xaml
-72099665906
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\App.xaml
+9-1318311338
 
-151881807467
-15164318234
-HomePage.xaml;LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;ShowAllClients.xaml;UpdateClientsPage.xaml;WarningWindow.xaml;
+179551013
+15569088221
+HomePage.xaml;LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;ShowAllClients.xaml;ShowAllWorkers.xaml;UpdateClientsPage.xaml;UpdateWorkerPage.xaml;WarningWindow.xaml;
 
 True
 

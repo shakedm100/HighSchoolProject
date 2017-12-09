@@ -53,8 +53,7 @@ namespace EasyBusyViewModel
         {
             JobType job = entity as JobType;
             job.ID = (int)reader["ID"];
-            String jobNum = reader["Job"].ToString();
-            job = JobTypeDB.SelectByID(jobNum);
+            job.Job = reader["Job"].ToString();
             return job;
         }
 

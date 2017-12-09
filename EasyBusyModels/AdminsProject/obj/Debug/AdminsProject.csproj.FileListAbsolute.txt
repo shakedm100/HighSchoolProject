@@ -62,3 +62,7 @@ C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\
 C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\obj\Debug\AdminsProject.csproj.CoreCompileInputs.cache
 C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\obj\Debug\AdminsProject.exe
 C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\obj\Debug\AdminsProject.pdb
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\obj\Debug\ShowAllWorkers.g.cs
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\obj\Debug\UpdateWorkerPage.g.cs
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\obj\Debug\ShowAllWorkers.baml
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\AdminsProject\obj\Debug\UpdateWorkerPage.baml
