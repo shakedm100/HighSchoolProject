@@ -25,23 +25,17 @@ namespace AdminsProject
     /// </summary>
     public partial class RegisterPage : Page
     {
-        CityDB cityDB = new CityDB();
-        KidometDB kidometDB = new KidometDB();
 
-        List<City> citys;
-        List<Kidomet> kidomot;
 
         public RegisterPage()
         {
             InitializeComponent();
 
+            CityDB cityDB = new CityDB();
+            KidometDB kidometDB = new KidometDB();
 
-
-            citys = new List<City>(cityDB.SelectAll());
-            kidomot = new List<Kidomet>(kidometDB.SelectAll());
-
-            cityComboBox.ItemsSource = citys;
-            kidometComboBox.ItemsSource = kidomot;
+            cityComboBox.ItemsSource = new List<City>(cityDB.SelectAll());
+            kidometComboBox.ItemsSource = new List<Kidomet>(kidometDB.SelectAll());
         }
 
         Client client = new Client();

@@ -4,3 +4,9 @@ c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyMode
 c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.csproj.CoreCompileInputs.cache
 c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.dll
 c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.pdb
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyModels\bin\Debug\EasyBusyModels.dll
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyModels\bin\Debug\EasyBusyModels.pdb
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.csprojResolveAssemblyReference.cache
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.csproj.CoreCompileInputs.cache
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.dll
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.pdb

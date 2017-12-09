@@ -7,3 +7,12 @@ C:\Users\shake\source\repos\EasyBusyModels\EasyBusyViewModel\bin\Debug\EasyBusyM
 C:\Users\shake\source\repos\EasyBusyModels\EasyBusyViewModel\bin\Debug\EasyBusyModels.pdb
 C:\Users\shake\source\repos\EasyBusyModels\EasyBusyViewModel\obj\Debug\EasyBusyViewModel.dll
 C:\Users\shake\source\repos\EasyBusyModels\EasyBusyViewModel\obj\Debug\EasyBusyViewModel.pdb
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\bin\Debug\App_Data\EasyBusy.accdb
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\bin\Debug\EasyBusyViewModel.dll
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\bin\Debug\EasyBusyViewModel.pdb
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\bin\Debug\EasyBusyModels.dll
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\bin\Debug\EasyBusyModels.pdb
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\obj\Debug\EasyBusyViewModel.csprojResolveAssemblyReference.cache
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\obj\Debug\EasyBusyViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\obj\Debug\EasyBusyViewModel.dll
+C:\Users\Shaked\Source\Repos\Dorit-s-final-project\EasyBusyModels\EasyBusyViewModel\obj\Debug\EasyBusyViewModel.pdb
