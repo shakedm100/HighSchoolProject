@@ -1,0 +1,6 @@
+c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\bin\Debug\EasyBusyModels.dll
+c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\bin\Debug\EasyBusyModels.pdb
+c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.csprojResolveAssemblyReference.cache
+c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.csproj.CoreCompileInputs.cache
+c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.dll
+c:\users\shake\source\repos\EasyBusyModels\EasyBusyModels\obj\Debug\EasyBusyModels.pdb

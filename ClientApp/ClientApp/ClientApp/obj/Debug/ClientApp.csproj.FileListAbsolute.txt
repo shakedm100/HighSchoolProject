@@ -1,0 +1,17 @@
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\ClientApp.dll
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\obj\Debug\ClientApp.csprojResolveAssemblyReference.cache
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\obj\Debug\ClientApp.MainPage.xaml.g.cs
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\obj\Debug\ClientApp.App.xaml.g.cs
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\obj\Debug\ClientApp.LoginPage.xaml.g.cs
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\obj\Debug\ClientApp.dll
+C:\Users\shake\source\repos\ClientApp\ClientApp\ClientApp\obj\Debug\ClientApp.pdb

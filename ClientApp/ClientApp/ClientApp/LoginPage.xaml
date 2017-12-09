@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClientApp.LoginPage">
+    <ContentPage.Content>
+        <Grid x:Name="grid" HorizontalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Login" FontSize="Large" Grid.Row="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"></Label>
+
+            <Label Text="Username:" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0"></Label>
+            <Entry x:Name="usernameEntry" TextColor="Black" WidthRequest="100" FontSize="Small" Grid.Row="1" Grid.Column="1" ></Entry>
+
+            <Label Text="Password:" VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0"></Label>
+            <Entry x:Name="passwordEntry" IsPassword="True" TextColor="Black" WidthRequest="100" FontSize="Small" Grid.Row="2" Grid.Column="1"></Entry>
+            <Button x:Name="submitButton" Text="Submit" VerticalOptions="Center" HorizontalOptions="Center"  Grid.Row="3" Grid.ColumnSpan="2" Clicked="submitButton_Clicked"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<Page x:Class="AdminsProject.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AdminsProject"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="HomePage">
+
+    <Grid>
+        <Button x:Name="viewAllClients" Content="View All Clients" HorizontalAlignment="Center" VerticalAlignment="Center" Width="95" Margin="10,135,195,143" Height="22" RenderTransformOrigin="0.072,0.797" Click="viewAllClients_Click"/>
+        <Button x:Name="viewAllWorkers" Content="View All Workers" HorizontalAlignment="Center" VerticalAlignment="Center" Width="95" Margin="195,135,10,143" Height="22" Click="viewAllWorkers_Click"/>
+    </Grid>
+</Page>

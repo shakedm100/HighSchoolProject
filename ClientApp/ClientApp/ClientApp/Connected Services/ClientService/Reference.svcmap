@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="edc32da0-31f3-434e-9d1f-abd2b9674243" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.10.2.197:8733/Design_Time_Addresses/EasyBusyService/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="d359b68d-1272-4dfe-9055-fde8ca11b134" SourceId="1" SourceUrl="http://10.10.2.197:8733/Design_Time_Addresses/EasyBusyService/Service1/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="0d37234a-6883-4834-9440-526fd42378f5" SourceId="1" SourceUrl="http://10.10.2.197:8733/Design_Time_Addresses/EasyBusyService/Service1/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="a838cc83-9eb0-4735-916e-e8311dc94373" SourceId="1" SourceUrl="http://10.10.2.197:8733/Design_Time_Addresses/EasyBusyService/Service1/?xsd=xsd3" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="cd8affd4-2246-4d1f-88eb-aca5b4a91ecf" SourceId="1" SourceUrl="http://10.10.2.197:8733/Design_Time_Addresses/EasyBusyService/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="7abc39b3-d56a-4c99-9629-83ad1f17d506" SourceId="1" SourceUrl="http://10.10.2.197:8733/Design_Time_Addresses/EasyBusyService/Service1/?wsdl" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="f50d9909-cab9-457d-8146-4bc62c76fe1b" SourceId="1" SourceUrl="http://10.10.2.197:8733/Design_Time_Addresses/EasyBusyService/Service1/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
